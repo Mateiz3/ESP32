@@ -23,11 +23,11 @@ python gateway.py
 ## Requirements
 
 - Python 3.6 or higher
-- ESP32 or ESP8266 device with painlessmesh
+- ESP32 / ESP8266 device with painlessmesh
 
 
 ## Notes
 
-- For ESP8266 users: Make sure to adjust the serial port name in the gateway code i(default is `/dev/ttyUSB0`)
+- For ESP8266: Make sure to adjust the serial port name in the gateway code i(default is `/dev/ttyUSB0`)
 - The mesh network code is compatible with both ESP32 and ESP8266
-- DHT sensor pin assignments may need to be adjusted based on your specific ESP8266 board 
+- DHT/BMP sensor pin assignments may need to be adjusted based on your specific ESP8266 board 
